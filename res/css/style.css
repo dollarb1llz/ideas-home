@@ -95,7 +95,12 @@ body {
 .box .op {
   opacity: .3;
 }
-
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
 /*Header*/
 
 header {
@@ -192,6 +197,23 @@ h2.title {
   margin: 1rem;
   font-weight: thin;
   opacity: .7;
+}
+
+/*IDEAS SECTION*/
+p.ideas {
+  line-height: 2.5;
+  text-indent: 1rem;
+  margin: 1rem;
+}
+img.ideas {
+  border-radius: 4rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  shape-outside: ellipse();
+}
+.bg {
+  background-color: hsla(0, 0%, 0%, 0.13);
+  padding: 1rem;
 }
 
 /*Tommorow Section*/
