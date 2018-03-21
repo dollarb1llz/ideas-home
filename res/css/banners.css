@@ -22,3 +22,9 @@ background-image: url('../img/horizon.jpg');
 background-image: url('../img/snow-lake.jpg');
 }
 @media only screen and (max-width: 850px) {.snow-lake {max-height: 20rem;position: relative;margin-top: -4rem;}}
+
+/*SPACE BANNER*/
+.space {
+background-image: url('../img/space.jpg');
+}
+@media only screen and (max-width: 850px) {.space {max-height: 20rem;position: relative;margin-top: -4rem;}}
