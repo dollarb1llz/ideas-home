@@ -25,10 +25,12 @@ body {
 .container {
   width: 970px;
   margin: 0 auto;
+  position: relative;
 }
 @media only screen and (max-width: 1050px) {
   .container {
     width: 99%;
+    position: relative;
   }
 }
 .test {
@@ -39,10 +41,12 @@ body {
   margin: 0;
   padding: 6rem 0 3rem 0;
   opacity: .90;
+  position: relative;
 }
 @media only screen and (max-width: 850px) {
   .color-box {
     padding: 2rem 0;
+    position: relative;
   }
 }
 .left {
@@ -111,6 +115,20 @@ nav li a {
 nav li a:hover {
   opacity: 1;
   color: white;
+}
+#checklist ul {
+  position: fixed;
+  opacity: 0;
+  transition: opacity 111ms ease;
+  display: flex;
+  flex-direction: column;
+  background-color: hsla(0, 0%, 0%, 0.55);
+}
+#checklist ul:hover {
+  opacity: 1;
+}
+#checklist li {
+  padding: 0;
 }
 @media only screen and (max-width: 850px) {
   .desktop {
@@ -207,7 +225,7 @@ p span a:nth-child(3n+2) {
 p span a:hover {
   color: hsl(198, 100%, 50%);
 }
-.container img {
+.container img, .container video {
   width: 40%;
   shape-outside: ellipse();
   margin: 1rem;
@@ -256,6 +274,9 @@ p span a:hover {
   }
   .right {
     float: none;
+  }
+  p {
+    margin: 0 1%;
   }
 }
 
