@@ -84,3 +84,9 @@ background-image: url('../img/guitar.jpg');
 background-image: url('../img/archive.jpg');
 }
 @media only screen and (max-width: 850px) {.space {max-height: 20rem;position: relative;margin-top: -4rem;}}
+
+/*mind BANNEr*/
+.mind {
+background-image: url('../img/mind.jpg');
+}
+@media only screen and (max-width: 850px) {.space {max-height: 20rem;position: relative;margin-top: -4rem;}}
